@@ -8,8 +8,6 @@
 
 #import "NXHTargetImageManger.h"
 
-#define ARIMAGESPATH [NSString stringWithFormat:@"%@",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]]
-
 static NXHTargetImageManger * imageManger = nil;
 
 @implementation NXHTargetImageManger
@@ -21,8 +19,8 @@ static NXHTargetImageManger * imageManger = nil;
         imageManger = [[NXHTargetImageManger alloc] init];
         imageManger.imagePath = ARIMAGESPATH;
         
-        if (![[NSFileManager defaultManager] fileExistsAtPath:[ARIMAGESPATH stringByAppendingPathComponent:@"arImage"]]) {
-            BOOL isSuccess = [[NSFileManager defaultManager] createFileAtPath:[ARIMAGESPATH stringByAppendingPathComponent:@"arImage"] contents:nil attributes:nil];
+        if (![[NSFileManager defaultManager] fileExistsAtPath:ARIMAGESPATH]) {
+            BOOL isSuccess = [[NSFileManager defaultManager] createFileAtPath:ARIMAGESPATH contents:nil attributes:nil];
             NSLog(isSuccess?@"file创建成功":@"file创建失败");
         }
     });
@@ -37,8 +35,7 @@ static NXHTargetImageManger * imageManger = nil;
         _imagesPath = [NSMutableArray array];
         for (int i = 0; i<images.count; i++) {
             NSString * imageName = [NSString stringWithFormat:@"%zi.jpg",i];
-            NSString * arImagePath= [ARIMAGESPATH stringByAppendingPathComponent:@"arImage"];
-            arImagePath = [arImagePath stringByAppendingPathComponent:imageName];
+            NSString * arImagePath= [ARIMAGESPATH stringByAppendingPathComponent:imageName];
 
             UIImage * image = images[i];
             NSData * imageData = UIImageJPEGRepresentation(image, .0000005);

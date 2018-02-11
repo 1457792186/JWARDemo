@@ -104,6 +104,7 @@
 		189814DD202FE36900410762 /* idback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = idback.jpg; sourceTree = "<group>"; };
 		189814DE202FE36900410762 /* NXHARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXHARViewController.h; sourceTree = "<group>"; };
 		189814DF202FE36900410762 /* NXHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXHHomeViewController.h; sourceTree = "<group>"; };
+		1898157D202FF2D800410762 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +220,7 @@
 		189814D3202FE36900410762 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				1898157D202FF2D800410762 /* PrefixHeader.pch */,
 				189814D4202FE36900410762 /* assets */,
 			);
 			path = Supporting;
@@ -481,6 +483,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/NXHAR/Library/EasyAR",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NXHAR/Supporting/PrefixHeader.pch";
 				INFOPLIST_FILE = NXHAR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -501,6 +505,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/NXHAR/Library/EasyAR",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NXHAR/Supporting/PrefixHeader.pch";
 				INFOPLIST_FILE = NXHAR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

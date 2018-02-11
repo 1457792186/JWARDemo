@@ -200,10 +200,10 @@ EasyAR::samples::HelloAR ar;
 //    }
 //    1修改结束
     NSArray * imagesPath = [NXHTargetImageManger shareManger].imagesPath;
-    NSString * basePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
     for (int i=0; i<imagesPath.count; i++) {
-        NSString * image = [basePath stringByAppendingPathComponent:@"arImage"];
-        image = [NSString stringWithFormat:@"%@%@%@",image,@"/",imagesPath[i]];
+//        获取图片路径
+        NSString * image = [ARIMAGESPATH stringByAppendingPathComponent:imagesPath[i]];
+        
         ar.loadFromImage([image cStringUsingEncoding:NSASCIIStringEncoding]);
     }
     //    JW修改结束
