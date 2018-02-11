@@ -168,14 +168,14 @@
 			isa = PBXGroup;
 			children = (
 				189814A8202FE36800410762 /* ARViewController.h */,
-				189814A9202FE36800410762 /* ar.hpp */,
-				189814AA202FE36800410762 /* OpenGLView.h */,
-				189814AB202FE36800410762 /* renderer.hpp */,
-				189814AC202FE36800410762 /* ar.cc */,
-				189814AD202FE36800410762 /* easyar.framework */,
-				189814AE202FE36800410762 /* renderer.cc */,
 				189814AF202FE36800410762 /* ARViewController.m */,
+				189814A9202FE36800410762 /* ar.hpp */,
+				189814AC202FE36800410762 /* ar.cc */,
+				189814AA202FE36800410762 /* OpenGLView.h */,
 				189814B0202FE36800410762 /* OpenGLView.mm */,
+				189814AB202FE36800410762 /* renderer.hpp */,
+				189814AE202FE36800410762 /* renderer.cc */,
+				189814AD202FE36800410762 /* easyar.framework */,
 			);
 			path = EasyAR;
 			sourceTree = "<group>";

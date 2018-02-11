@@ -202,9 +202,8 @@ EasyAR::samples::HelloAR ar;
     NSArray * imagesPath = [NXHTargetImageManger shareManger].imagesPath;
     NSString * basePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
     for (int i=0; i<imagesPath.count; i++) {
-        NSString * image = [basePath stringByAppendingPathComponent:@"ARImage"];
+        NSString * image = [basePath stringByAppendingPathComponent:@"arImage"];
         image = [NSString stringWithFormat:@"%@%@%@",image,@"/",imagesPath[i]];
-        UIImage * imagea = [UIImage imageWithContentsOfFile:image];
         ar.loadFromImage([image cStringUsingEncoding:NSASCIIStringEncoding]);
     }
     //    JW修改结束

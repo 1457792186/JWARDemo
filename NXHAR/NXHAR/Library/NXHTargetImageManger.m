@@ -21,9 +21,9 @@ static NXHTargetImageManger * imageManger = nil;
         imageManger = [[NXHTargetImageManger alloc] init];
         imageManger.imagePath = ARIMAGESPATH;
         
-        if (![[NSFileManager defaultManager] fileExistsAtPath:[ARIMAGESPATH stringByAppendingPathComponent:@"ARImage"]]) {
-            BOOL isSuccess = [[NSFileManager defaultManager] createFileAtPath:[ARIMAGESPATH stringByAppendingPathComponent:@"ARImage"] contents:nil attributes:nil];
-            NSLog(isSuccess?@"创建成功":@"创建失败");
+        if (![[NSFileManager defaultManager] fileExistsAtPath:[ARIMAGESPATH stringByAppendingPathComponent:@"arImage"]]) {
+            BOOL isSuccess = [[NSFileManager defaultManager] createFileAtPath:[ARIMAGESPATH stringByAppendingPathComponent:@"arImage"] contents:nil attributes:nil];
+            NSLog(isSuccess?@"file创建成功":@"file创建失败");
         }
     });
     
@@ -37,19 +37,18 @@ static NXHTargetImageManger * imageManger = nil;
         _imagesPath = [NSMutableArray array];
         for (int i = 0; i<images.count; i++) {
             NSString * imageName = [NSString stringWithFormat:@"%zi.jpg",i];
-            NSString * arImagePath= [ARIMAGESPATH stringByAppendingPathComponent:@"ARImage"];
+            NSString * arImagePath= [ARIMAGESPATH stringByAppendingPathComponent:@"arImage"];
             arImagePath = [arImagePath stringByAppendingPathComponent:imageName];
 
             UIImage * image = images[i];
             NSData * imageData = UIImageJPEGRepresentation(image, .0000005);
             
             BOOL isSuccess=[[NSFileManager defaultManager] createFileAtPath:arImagePath contents:nil attributes:nil];
-            if (isSuccess) {
-                NSLog(@"创建成功");
-            }else{
-                NSLog(@"创建失败");
-            }
-            BOOL iswet = [imageData writeToFile:arImagePath atomically:YES];
+            NSLog(isSuccess?@"image创建成功":@"image创建失败");
+            
+            isSuccess = [imageData writeToFile:arImagePath atomically:YES];
+            NSLog(isSuccess?@"image写入创建成功":@"image写入创建失败");
+            
             [_imagesPath addObject:imageName];
         }
     }
