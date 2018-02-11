@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18981492202FE34600410762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18981491202FE34600410762 /* AppDelegate.m */; };
+		1898149A202FE34600410762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18981499202FE34600410762 /* Assets.xcassets */; };
+		1898149D202FE34600410762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898149B202FE34600410762 /* LaunchScreen.storyboard */; };
+		189814A0202FE34600410762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898149F202FE34600410762 /* main.m */; };
+		189814E0202FE36900410762 /* ar.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189814AC202FE36800410762 /* ar.cc */; };
+		189814E1202FE36900410762 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189814AD202FE36800410762 /* easyar.framework */; };
+		189814E2202FE36900410762 /* renderer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 189814AE202FE36800410762 /* renderer.cc */; };
+		189814E3202FE36900410762 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814AF202FE36800410762 /* ARViewController.m */; };
+		189814E4202FE36900410762 /* OpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 189814B0202FE36800410762 /* OpenGLView.mm */; };
+		189814E5202FE36900410762 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814B5202FE36800410762 /* TZImageCropManager.m */; };
+		189814E6202FE36900410762 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814B7202FE36800410762 /* TZAssetCell.m */; };
+		189814E7202FE36900410762 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814B8202FE36800410762 /* TZVideoPlayerController.m */; };
+		189814E8202FE36900410762 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814B9202FE36800410762 /* TZAssetModel.m */; };
+		189814E9202FE36900410762 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814BA202FE36800410762 /* NSBundle+TZImagePicker.m */; };
+		189814EA202FE36900410762 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814BD202FE36800410762 /* UIView+Layout.m */; };
+		189814EB202FE36900410762 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814BE202FE36800410762 /* TZPhotoPreviewController.m */; };
+		189814EC202FE36900410762 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 189814BF202FE36800410762 /* TZImagePickerController.bundle */; };
+		189814ED202FE36900410762 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814C0202FE36800410762 /* TZProgressView.m */; };
+		189814EE202FE36900410762 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814C3202FE36800410762 /* TZImageManager.m */; };
+		189814EF202FE36900410762 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814C5202FE36800410762 /* TZPhotoPickerController.m */; };
+		189814F0202FE36900410762 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814C6202FE36800410762 /* TZPhotoPreviewCell.m */; };
+		189814F1202FE36900410762 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814CC202FE36800410762 /* TZImagePickerController.m */; };
+		189814F2202FE36900410762 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814CD202FE36800410762 /* TZLocationManager.m */; };
+		189814F3202FE36900410762 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814CE202FE36800410762 /* TZGifPhotoPreviewController.m */; };
+		189814F4202FE36900410762 /* NXHTargetImageManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814D0202FE36800410762 /* NXHTargetImageManger.m */; };
+		189814F5202FE36900410762 /* NXHARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814D1202FE36900410762 /* NXHARViewController.m */; };
+		189814F6202FE36900410762 /* NXHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189814D2202FE36900410762 /* NXHHomeViewController.m */; };
+		189814F7202FE36900410762 /* namecard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189814D5202FE36900410762 /* namecard.jpg */; };
+		189814F8202FE36900410762 /* targets.json in Resources */ = {isa = PBXBuildFile; fileRef = 189814D6202FE36900410762 /* targets.json */; };
+		189814F9202FE36900410762 /* argame03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189814D8202FE36900410762 /* argame03.jpg */; };
+		189814FA202FE36900410762 /* argame02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189814D9202FE36900410762 /* argame02.jpg */; };
+		189814FB202FE36900410762 /* argame00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189814DA202FE36900410762 /* argame00.jpg */; };
+		189814FC202FE36900410762 /* argame01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189814DB202FE36900410762 /* argame01.jpg */; };
+		189814FD202FE36900410762 /* targets2.json in Resources */ = {isa = PBXBuildFile; fileRef = 189814DC202FE36900410762 /* targets2.json */; };
+		189814FE202FE36900410762 /* idback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189814DD202FE36900410762 /* idback.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1898148D202FE34600410762 /* NXHAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXHAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18981490202FE34600410762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18981491202FE34600410762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18981499202FE34600410762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1898149C202FE34600410762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1898149E202FE34600410762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1898149F202FE34600410762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189814A8202FE36800410762 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		189814A9202FE36800410762 /* ar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ar.hpp; sourceTree = "<group>"; };
+		189814AA202FE36800410762 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		189814AB202FE36800410762 /* renderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = renderer.hpp; sourceTree = "<group>"; };
+		189814AC202FE36800410762 /* ar.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ar.cc; sourceTree = "<group>"; };
+		189814AD202FE36800410762 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = easyar.framework; sourceTree = "<group>"; };
+		189814AE202FE36800410762 /* renderer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderer.cc; sourceTree = "<group>"; };
+		189814AF202FE36800410762 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		189814B0202FE36800410762 /* OpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLView.mm; sourceTree = "<group>"; };
+		189814B1202FE36800410762 /* NXHTargetImageManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXHTargetImageManger.h; sourceTree = "<group>"; };
+		189814B3202FE36800410762 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		189814B4202FE36800410762 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		189814B5202FE36800410762 /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		189814B6202FE36800410762 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		189814B7202FE36800410762 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		189814B8202FE36800410762 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		189814B9202FE36800410762 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		189814BA202FE36800410762 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		189814BB202FE36800410762 /* TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		189814BC202FE36800410762 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		189814BD202FE36800410762 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		189814BE202FE36800410762 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		189814BF202FE36800410762 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		189814C0202FE36800410762 /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		189814C1202FE36800410762 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		189814C2202FE36800410762 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		189814C3202FE36800410762 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		189814C4202FE36800410762 /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		189814C5202FE36800410762 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		189814C6202FE36800410762 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		189814C7202FE36800410762 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		189814C8202FE36800410762 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		189814C9202FE36800410762 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		189814CA202FE36800410762 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		189814CB202FE36800410762 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		189814CC202FE36800410762 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		189814CD202FE36800410762 /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		189814CE202FE36800410762 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		189814CF202FE36800410762 /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		189814D0202FE36800410762 /* NXHTargetImageManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXHTargetImageManger.m; sourceTree = "<group>"; };
+		189814D1202FE36900410762 /* NXHARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXHARViewController.m; sourceTree = "<group>"; };
+		189814D2202FE36900410762 /* NXHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXHHomeViewController.m; sourceTree = "<group>"; };
+		189814D5202FE36900410762 /* namecard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = namecard.jpg; sourceTree = "<group>"; };
+		189814D6202FE36900410762 /* targets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = targets.json; sourceTree = "<group>"; };
+		189814D8202FE36900410762 /* argame03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = argame03.jpg; sourceTree = "<group>"; };
+		189814D9202FE36900410762 /* argame02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = argame02.jpg; sourceTree = "<group>"; };
+		189814DA202FE36900410762 /* argame00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = argame00.jpg; sourceTree = "<group>"; };
+		189814DB202FE36900410762 /* argame01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = argame01.jpg; sourceTree = "<group>"; };
+		189814DC202FE36900410762 /* targets2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = targets2.json; sourceTree = "<group>"; };
+		189814DD202FE36900410762 /* idback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = idback.jpg; sourceTree = "<group>"; };
+		189814DE202FE36900410762 /* NXHARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXHARViewController.h; sourceTree = "<group>"; };
+		189814DF202FE36900410762 /* NXHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXHHomeViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1898148A202FE34600410762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189814E1202FE36900410762 /* easyar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18981484202FE34600410762 = {
+			isa = PBXGroup;
+			children = (
+				1898148F202FE34600410762 /* NXHAR */,
+				1898148E202FE34600410762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1898148E202FE34600410762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1898148D202FE34600410762 /* NXHAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1898148F202FE34600410762 /* NXHAR */ = {
+			isa = PBXGroup;
+			children = (
+				189814D3202FE36900410762 /* Supporting */,
+				189814A6202FE36800410762 /* Library */,
+				189814DE202FE36900410762 /* NXHARViewController.h */,
+				189814D1202FE36900410762 /* NXHARViewController.m */,
+				189814DF202FE36900410762 /* NXHHomeViewController.h */,
+				189814D2202FE36900410762 /* NXHHomeViewController.m */,
+				18981490202FE34600410762 /* AppDelegate.h */,
+				18981491202FE34600410762 /* AppDelegate.m */,
+				18981499202FE34600410762 /* Assets.xcassets */,
+				1898149B202FE34600410762 /* LaunchScreen.storyboard */,
+				1898149E202FE34600410762 /* Info.plist */,
+				1898149F202FE34600410762 /* main.m */,
+			);
+			path = NXHAR;
+			sourceTree = "<group>";
+		};
+		189814A6202FE36800410762 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				189814A7202FE36800410762 /* EasyAR */,
+				189814B2202FE36800410762 /* TZImagePickerController */,
+				189814B1202FE36800410762 /* NXHTargetImageManger.h */,
+				189814D0202FE36800410762 /* NXHTargetImageManger.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		189814A7202FE36800410762 /* EasyAR */ = {
+			isa = PBXGroup;
+			children = (
+				189814A8202FE36800410762 /* ARViewController.h */,
+				189814A9202FE36800410762 /* ar.hpp */,
+				189814AA202FE36800410762 /* OpenGLView.h */,
+				189814AB202FE36800410762 /* renderer.hpp */,
+				189814AC202FE36800410762 /* ar.cc */,
+				189814AD202FE36800410762 /* easyar.framework */,
+				189814AE202FE36800410762 /* renderer.cc */,
+				189814AF202FE36800410762 /* ARViewController.m */,
+				189814B0202FE36800410762 /* OpenGLView.mm */,
+			);
+			path = EasyAR;
+			sourceTree = "<group>";
+		};
+		189814B2202FE36800410762 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				189814B3202FE36800410762 /* TZPhotoPreviewCell.h */,
+				189814B4202FE36800410762 /* TZPhotoPickerController.h */,
+				189814B5202FE36800410762 /* TZImageCropManager.m */,
+				189814B6202FE36800410762 /* TZImageManager.h */,
+				189814B7202FE36800410762 /* TZAssetCell.m */,
+				189814B8202FE36800410762 /* TZVideoPlayerController.m */,
+				189814B9202FE36800410762 /* TZAssetModel.m */,
+				189814BA202FE36800410762 /* NSBundle+TZImagePicker.m */,
+				189814BB202FE36800410762 /* TZLocationManager.h */,
+				189814BC202FE36800410762 /* TZImagePickerController.h */,
+				189814BD202FE36800410762 /* UIView+Layout.m */,
+				189814BE202FE36800410762 /* TZPhotoPreviewController.m */,
+				189814BF202FE36800410762 /* TZImagePickerController.bundle */,
+				189814C0202FE36800410762 /* TZProgressView.m */,
+				189814C1202FE36800410762 /* TZGifPhotoPreviewController.h */,
+				189814C2202FE36800410762 /* TZAssetCell.h */,
+				189814C3202FE36800410762 /* TZImageManager.m */,
+				189814C4202FE36800410762 /* TZImageCropManager.h */,
+				189814C5202FE36800410762 /* TZPhotoPickerController.m */,
+				189814C6202FE36800410762 /* TZPhotoPreviewCell.m */,
+				189814C7202FE36800410762 /* NSBundle+TZImagePicker.h */,
+				189814C8202FE36800410762 /* TZAssetModel.h */,
+				189814C9202FE36800410762 /* TZVideoPlayerController.h */,
+				189814CA202FE36800410762 /* TZPhotoPreviewController.h */,
+				189814CB202FE36800410762 /* UIView+Layout.h */,
+				189814CC202FE36800410762 /* TZImagePickerController.m */,
+				189814CD202FE36800410762 /* TZLocationManager.m */,
+				189814CE202FE36800410762 /* TZGifPhotoPreviewController.m */,
+				189814CF202FE36800410762 /* TZProgressView.h */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		189814D3202FE36900410762 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				189814D4202FE36900410762 /* assets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		189814D4202FE36900410762 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				189814D5202FE36900410762 /* namecard.jpg */,
+				189814D6202FE36900410762 /* targets.json */,
+				189814D7202FE36900410762 /* sightplus */,
+				189814DC202FE36900410762 /* targets2.json */,
+				189814DD202FE36900410762 /* idback.jpg */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		189814D7202FE36900410762 /* sightplus */ = {
+			isa = PBXGroup;
+			children = (
+				189814D8202FE36900410762 /* argame03.jpg */,
+				189814D9202FE36900410762 /* argame02.jpg */,
+				189814DA202FE36900410762 /* argame00.jpg */,
+				189814DB202FE36900410762 /* argame01.jpg */,
+			);
+			path = sightplus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1898148C202FE34600410762 /* NXHAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189814A3202FE34600410762 /* Build configuration list for PBXNativeTarget "NXHAR" */;
+			buildPhases = (
+				18981489202FE34600410762 /* Sources */,
+				1898148A202FE34600410762 /* Frameworks */,
+				1898148B202FE34600410762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXHAR;
+			productName = NXHAR;
+			productReference = 1898148D202FE34600410762 /* NXHAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18981485202FE34600410762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = UgoMedia;
+				TargetAttributes = {
+					1898148C202FE34600410762 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18981488202FE34600410762 /* Build configuration list for PBXProject "NXHAR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18981484202FE34600410762;
+			productRefGroup = 1898148E202FE34600410762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1898148C202FE34600410762 /* NXHAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1898148B202FE34600410762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189814FD202FE36900410762 /* targets2.json in Resources */,
+				189814F7202FE36900410762 /* namecard.jpg in Resources */,
+				1898149D202FE34600410762 /* LaunchScreen.storyboard in Resources */,
+				189814FE202FE36900410762 /* idback.jpg in Resources */,
+				189814FA202FE36900410762 /* argame02.jpg in Resources */,
+				189814FC202FE36900410762 /* argame01.jpg in Resources */,
+				189814EC202FE36900410762 /* TZImagePickerController.bundle in Resources */,
+				189814FB202FE36900410762 /* argame00.jpg in Resources */,
+				189814F9202FE36900410762 /* argame03.jpg in Resources */,
+				1898149A202FE34600410762 /* Assets.xcassets in Resources */,
+				189814F8202FE36900410762 /* targets.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18981489202FE34600410762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189814E9202FE36900410762 /* NSBundle+TZImagePicker.m in Sources */,
+				189814EB202FE36900410762 /* TZPhotoPreviewController.m in Sources */,
+				189814ED202FE36900410762 /* TZProgressView.m in Sources */,
+				189814F0202FE36900410762 /* TZPhotoPreviewCell.m in Sources */,
+				189814E4202FE36900410762 /* OpenGLView.mm in Sources */,
+				189814F3202FE36900410762 /* TZGifPhotoPreviewController.m in Sources */,
+				189814E8202FE36900410762 /* TZAssetModel.m in Sources */,
+				189814E2202FE36900410762 /* renderer.cc in Sources */,
+				189814E3202FE36900410762 /* ARViewController.m in Sources */,
+				189814F2202FE36900410762 /* TZLocationManager.m in Sources */,
+				189814EE202FE36900410762 /* TZImageManager.m in Sources */,
+				189814F4202FE36900410762 /* NXHTargetImageManger.m in Sources */,
+				189814EF202FE36900410762 /* TZPhotoPickerController.m in Sources */,
+				189814EA202FE36900410762 /* UIView+Layout.m in Sources */,
+				189814E0202FE36900410762 /* ar.cc in Sources */,
+				189814E7202FE36900410762 /* TZVideoPlayerController.m in Sources */,
+				189814F6202FE36900410762 /* NXHHomeViewController.m in Sources */,
+				189814F5202FE36900410762 /* NXHARViewController.m in Sources */,
+				189814E6202FE36900410762 /* TZAssetCell.m in Sources */,
+				189814A0202FE34600410762 /* main.m in Sources */,
+				189814F1202FE36900410762 /* TZImagePickerController.m in Sources */,
+				18981492202FE34600410762 /* AppDelegate.m in Sources */,
+				189814E5202FE36900410762 /* TZImageCropManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1898149B202FE34600410762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1898149C202FE34600410762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189814A1202FE34600410762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		189814A2202FE34600410762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189814A4202FE34600410762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D5Z473WJW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NXHAR/Library/EasyAR",
+				);
+				INFOPLIST_FILE = NXHAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UgoMedia.NXHAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189814A5202FE34600410762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D5Z473WJW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NXHAR/Library/EasyAR",
+				);
+				INFOPLIST_FILE = NXHAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UgoMedia.NXHAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18981488202FE34600410762 /* Build configuration list for PBXProject "NXHAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189814A1202FE34600410762 /* Debug */,
+				189814A2202FE34600410762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189814A3202FE34600410762 /* Build configuration list for PBXNativeTarget "NXHAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189814A4202FE34600410762 /* Debug */,
+				189814A5202FE34600410762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18981485202FE34600410762 /* Project object */;
+}
