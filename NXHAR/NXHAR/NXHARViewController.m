@@ -31,12 +31,14 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     ((AppDelegate *)[[UIApplication sharedApplication]delegate]).active=YES;
+    //    开始扫描
     [self.glView start];
 }
 
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillAppear:animated];
     ((AppDelegate *)[[UIApplication sharedApplication]delegate]).active=NO;
+    //    停止扫描
     [self.glView stop];
 }
 
@@ -50,13 +52,14 @@
 }
 
 - (void)showAR{
-    [self showHUDWithStr:@"扫描成功233"];
+        [self showHUDWithStr:@"扫描成功233"];
+    //    Unity集成看https://www.jianshu.com/p/dc68baad8bdb
     
     
 }
 
 - (void)showARFail{
-//    [self showHUDWithStr:@"扫描失败"];
+    //    [self showHUDWithStr:@"扫描失败"];
 }
 
 //提示警告
@@ -94,3 +97,4 @@
 }
 
 @end
+

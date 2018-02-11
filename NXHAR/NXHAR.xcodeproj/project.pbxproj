@@ -42,6 +42,27 @@
 		189814FC202FE36900410762 /* argame01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189814DB202FE36900410762 /* argame01.jpg */; };
 		189814FD202FE36900410762 /* targets2.json in Resources */ = {isa = PBXBuildFile; fileRef = 189814DC202FE36900410762 /* targets2.json */; };
 		189814FE202FE36900410762 /* idback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 189814DD202FE36900410762 /* idback.jpg */; };
+		189815AC20301E9C00410762 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815AB20301E9C00410762 /* CoreImage.framework */; };
+		189815AE20301EA500410762 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815AD20301EA500410762 /* CFNetwork.framework */; };
+		189815B020301EAE00410762 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815AF20301EAE00410762 /* libiconv.2.tbd */; };
+		189815B220301EB300410762 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815B120301EB300410762 /* AssetsLibrary.framework */; };
+		189815B420301EB800410762 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815B320301EB800410762 /* AVFoundation.framework */; };
+		189815B620301EBD00410762 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815B520301EBD00410762 /* QuartzCore.framework */; };
+		189815B820301EC200410762 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815B720301EC200410762 /* OpenGLES.framework */; };
+		189815BA20301EC800410762 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815B920301EC800410762 /* CoreGraphics.framework */; };
+		189815BC20301ECE00410762 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815BB20301ECE00410762 /* AudioToolbox.framework */; };
+		189815BE20301ED700410762 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815BD20301ED700410762 /* CoreLocation.framework */; };
+		189815C020301EE000410762 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815BF20301EE000410762 /* CoreVideo.framework */; };
+		189815C220301EE700410762 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815C120301EE700410762 /* Security.framework */; };
+		189815C420301EF000410762 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815C320301EF000410762 /* CoreText.framework */; };
+		189815C620301EF800410762 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815C520301EF800410762 /* MediaPlayer.framework */; };
+		189815C820301EFE00410762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815C720301EFE00410762 /* Foundation.framework */; };
+		189815CA20301F0500410762 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815C920301F0500410762 /* CoreMedia.framework */; };
+		189815CC20301F0B00410762 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815CB20301F0B00410762 /* OpenAL.framework */; };
+		189815CE20301F1000410762 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815CD20301F1000410762 /* iAd.framework */; };
+		189815D020301F1600410762 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815CF20301F1600410762 /* SystemConfiguration.framework */; };
+		189815D220301F1B00410762 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815D120301F1B00410762 /* UIKit.framework */; };
+		189815D420301F2200410762 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189815D320301F2200410762 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +126,27 @@
 		189814DE202FE36900410762 /* NXHARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXHARViewController.h; sourceTree = "<group>"; };
 		189814DF202FE36900410762 /* NXHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXHHomeViewController.h; sourceTree = "<group>"; };
 		1898157D202FF2D800410762 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		189815AB20301E9C00410762 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		189815AD20301EA500410762 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		189815AF20301EAE00410762 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		189815B120301EB300410762 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		189815B320301EB800410762 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		189815B520301EBD00410762 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		189815B720301EC200410762 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		189815B920301EC800410762 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		189815BB20301ECE00410762 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		189815BD20301ED700410762 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		189815BF20301EE000410762 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		189815C120301EE700410762 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		189815C320301EF000410762 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		189815C520301EF800410762 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		189815C720301EFE00410762 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		189815C920301F0500410762 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		189815CB20301F0B00410762 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		189815CD20301F1000410762 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		189815CF20301F1600410762 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		189815D120301F1B00410762 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		189815D320301F2200410762 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +154,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189815D420301F2200410762 /* CoreMotion.framework in Frameworks */,
+				189815D220301F1B00410762 /* UIKit.framework in Frameworks */,
+				189815D020301F1600410762 /* SystemConfiguration.framework in Frameworks */,
+				189815CE20301F1000410762 /* iAd.framework in Frameworks */,
+				189815CC20301F0B00410762 /* OpenAL.framework in Frameworks */,
+				189815CA20301F0500410762 /* CoreMedia.framework in Frameworks */,
+				189815C820301EFE00410762 /* Foundation.framework in Frameworks */,
+				189815C620301EF800410762 /* MediaPlayer.framework in Frameworks */,
+				189815C420301EF000410762 /* CoreText.framework in Frameworks */,
+				189815C220301EE700410762 /* Security.framework in Frameworks */,
+				189815C020301EE000410762 /* CoreVideo.framework in Frameworks */,
+				189815BE20301ED700410762 /* CoreLocation.framework in Frameworks */,
+				189815BC20301ECE00410762 /* AudioToolbox.framework in Frameworks */,
+				189815BA20301EC800410762 /* CoreGraphics.framework in Frameworks */,
+				189815B820301EC200410762 /* OpenGLES.framework in Frameworks */,
+				189815B620301EBD00410762 /* QuartzCore.framework in Frameworks */,
+				189815B420301EB800410762 /* AVFoundation.framework in Frameworks */,
+				189815B220301EB300410762 /* AssetsLibrary.framework in Frameworks */,
+				189815B020301EAE00410762 /* libiconv.2.tbd in Frameworks */,
+				189815AE20301EA500410762 /* CFNetwork.framework in Frameworks */,
+				189815AC20301E9C00410762 /* CoreImage.framework in Frameworks */,
 				189814E1202FE36900410762 /* easyar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +187,7 @@
 			children = (
 				1898148F202FE34600410762 /* NXHAR */,
 				1898148E202FE34600410762 /* Products */,
+				189815AA20301E9C00410762 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,6 +311,34 @@
 				189814DB202FE36900410762 /* argame01.jpg */,
 			);
 			path = sightplus;
+			sourceTree = "<group>";
+		};
+		189815AA20301E9C00410762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189815D320301F2200410762 /* CoreMotion.framework */,
+				189815D120301F1B00410762 /* UIKit.framework */,
+				189815CF20301F1600410762 /* SystemConfiguration.framework */,
+				189815CD20301F1000410762 /* iAd.framework */,
+				189815CB20301F0B00410762 /* OpenAL.framework */,
+				189815C920301F0500410762 /* CoreMedia.framework */,
+				189815C720301EFE00410762 /* Foundation.framework */,
+				189815C520301EF800410762 /* MediaPlayer.framework */,
+				189815C320301EF000410762 /* CoreText.framework */,
+				189815C120301EE700410762 /* Security.framework */,
+				189815BF20301EE000410762 /* CoreVideo.framework */,
+				189815BD20301ED700410762 /* CoreLocation.framework */,
+				189815BB20301ECE00410762 /* AudioToolbox.framework */,
+				189815B920301EC800410762 /* CoreGraphics.framework */,
+				189815B720301EC200410762 /* OpenGLES.framework */,
+				189815B520301EBD00410762 /* QuartzCore.framework */,
+				189815B320301EB800410762 /* AVFoundation.framework */,
+				189815B120301EB300410762 /* AssetsLibrary.framework */,
+				189815AF20301EAE00410762 /* libiconv.2.tbd */,
+				189815AD20301EA500410762 /* CFNetwork.framework */,
+				189815AB20301E9C00410762 /* CoreImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
